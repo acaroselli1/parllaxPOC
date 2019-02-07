@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/parllaxPOC/precache-manifest.aa2b5ad34185c6e1628cf7b17933153b.js"
+  "/parllaxGithubPages/precache-manifest.7f10f2db64ba5f493849ef8ec5452a34.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/parllaxPOC/index.html", {
+workbox.routing.registerNavigationRoute("/parllaxGithubPages/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
